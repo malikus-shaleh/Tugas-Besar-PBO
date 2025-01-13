@@ -5,6 +5,10 @@
 ![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/output/5.jpg)
 ![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/output/6.jpg)
 
+===========================================================================================================================================================
+
+DIAGRAM UML
+
 1. ACTIVITY DIAGRAM 
 
 ![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/UML/activity%20diagram.jpg)
