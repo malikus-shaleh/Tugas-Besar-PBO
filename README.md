@@ -26,14 +26,24 @@ dua gambar diatas adalah bagian dari sistem yang dimana admin bisa mereset ulang
 
 DIAGRAM UML
 
-1. ACTIVITY DIAGRAM 
+1. USE CASE DIAGRAM
 
-![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/UML/activity%20diagram.jpg)
+![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/UML/use%20case.jpg)
 
-Gambar tersebut adalah UML Activity Diagram dimana langkah awal yaitu masuk ke dalam website, setelah itu pilih layanan servis yang diinginkan dan masukkan data diri serta Nomor Plat, setelah itu sistem mengecek apakah sudah benar atau belum, jika sudah maka akan keluar nomor antrian dan jika salah akan mengulang ke menu utama
+Gambar tersebut adalah UML USE CASE DIAGRAM yang dimana untuk admin memiliki beberapa akses ke dalam aplikasi, akses yang dimiliki admin adalah melakukan registrasi, memilih servis, memasukkan no plat, jadwal servis, nomor antrian dan mereset antrian, sedangkan untuk pelanggan hanya memiliki beberapa akses saja yaitu memberikan nama dan nomor telepon, memilih menu servis, memasukkan no plat kendaraan dan melihat detail dari nomor antrian yang didapatkan.
 
 2. CLASS DIAGRAM
 
 ![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/UML/class%20diagram.jpg)
 
 Gambar tersebut adalah class diagram yang dimana pelanggan memiliki atribut berupa nama, nomor telepon dan nomor plat kendaraan, untuk admin memiliki atribut id, nama dan nomor telepon, dan untuk servis memiliki atribut id servis, layanan dan mekanik sedangkan antrian yang merupakan turunan dari servis memiliki atribut nomor antrian, id servis dan sisa antrian.
+
+3. CLASS DIAGRAM
+   
+![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/UML/activity%20diagram.jpg)
+
+Gambar tersebut adalah UML Activity Diagram dimana langkah awal yaitu masuk ke dalam website, setelah itu pilih layanan servis yang diinginkan dan masukkan data diri serta Nomor Plat, setelah itu sistem mengecek apakah sudah benar atau belum, jika sudah maka akan keluar nomor antrian dan jika salah akan mengulang ke menu utama
+
+
+
+
