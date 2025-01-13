@@ -1,0 +1,113 @@
+footer {
+  position: fixed; /* Tetap di bawah layar */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  color: white;
+  text-align: left;
+  z-index: 100;
+}
+
+/* Reset margin dan padding supaya ukuran body penuh */
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%; /* Membuat ukuran body penuh dengan layar */
+
+  }
+  
+  /* Styling untuk konten utama */
+  main {
+    display: flex;
+    flex-direction: column;  /* Rapiin agar form berada di atas layar */
+    justify-content: flex-start; /* Agar konten lebih mendekat ke atas */
+    align-items: center;     /* Agar form tetap di tengah horizontal */
+    height: 97vh;           /* Biarkan main memenuhi layar secara vertikal */
+    box-sizing: border-box;
+  }
+  
+.order-details {
+  padding: 120px 30px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin-top: 20px;  /* Menambahkan jarak cukup antara kotak dan header */
+}
+  
+  /* Judul Halaman */
+  .order-details h1 {
+    font-size: 24px;      /* Ukuran judul */
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;  /* Jarak dengan input */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+  /* Styling untuk input text */
+  input {
+    width: 90%;                /* Lebar sesuai kontainer */
+    padding: 10px;             /* Padding nyaman dalam input */
+    font-size: 16px;           /* Ukuran teks dalam input */
+    border: 2px solid #ddd;   /* Border input yang lembut */
+    border-radius: 5px;       /* Sudut input membulat */
+    margin-bottom: 15px;       /* Jarak antar elemen */
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    border-color: #697565;     /* Warna border saat fokus */
+    outline: none;
+  }
+  
+  /* Styling untuk tombol */
+  button {
+    width: 90%;               /* Tombol mengikuti lebar penuh */
+    padding: 10px;             /* Padding yang pas untuk tombol */
+    font-size: 16px;           /* Ukuran teks tombol */
+    border: none;              /* Menghilangkan border standar */
+    border-radius: 5px;        /* Sudut tombol membulat */
+    cursor: pointer;          /* Membuat pointer tangan di hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 7px;
+  }
+  
+  .btn-pesan {
+    background-color: #697565;  /* Tombol hijau */
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .btn-pesan:hover {
+    background-color: #ecdfcc;
+    color: #3c3d37;
+  }
+  
+  .btn-reset {
+    background-color: #697565; /* Tombol merah */
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .btn-reset:hover {
+    background-color: #ecdfcc;
+    color: #3c3d37;
+  }
+
+@media (max-width: 768px) {
+  footer {
+    position: fixed; /* Tetap di bawah layar */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 7px;
+    color: white;
+    text-align: left;
+    z-index: 100;
+  }
+}

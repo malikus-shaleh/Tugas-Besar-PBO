@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Layanan - AMBAGARAGE</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="pesanan.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">AMBAGARAGE</div>
+            <nav class="nav-menu">
+                <a href="../index.html">
+                    <img src="../gambar/icon-home.png" alt="Beranda" style="width: 17px; height: 17px;">
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="order-details">
+            <h1>Pesan Layanan</h1>
+            <form id="order-form">
+                <input type="text" id="nama-customer" placeholder="Masukkan Nama Anda" required>
+                <input type="text" id="nomor-telepon" placeholder="Masukkan Nomor Telepon" required>
+                <input type="text" id="plat-kendaraan" placeholder="Masukkan Nomor Plat Kendaraan Anda" required>
+                <button type="submit" class="btn-pesan">Pesan Layanan</button>
+                <button type="button" class="btn-reset" onclick="resetAntrian()">Reset Antrian</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 AMBAGARAGE. Semua Hak Dilindungi. | <a href="bantuan/bantuan.html">Hubungi Kami</a></p>
+    </footer>
+    <script src="pesanan.js"></script>
+</body>
+</html>
