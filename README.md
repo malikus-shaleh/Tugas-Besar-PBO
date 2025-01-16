@@ -1,3 +1,12 @@
+ANGGOTA KELOMPOK :
+
+1. Raffy Akhsan Adi Muzacky(32602300016)
+
+2. Muhammad Malikus SHaleh(32602300026)
+
+3. Nayla Alvin(32602300030)
+
+
 OUTPUT KODE PROGRAM
 
 ![Deskripsi Gambar](https://github.com/malikus-shaleh/Tugas-Besar-PBO/blob/main/output/1.jpg)
